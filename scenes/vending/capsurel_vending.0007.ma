@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: capsurel_vending.ma
-//Last modified: Tue, Sep 26, 2017 04:04:54 PM
+//Name: capsurel_vending.0007.ma
+//Last modified: Tue, Sep 26, 2017 04:04:38 PM
 //Codeset: UTF-8
 requires maya "2018";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiAreaLight"
@@ -2668,4 +2668,4 @@ connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId6.msg" ":initialShadingGroup.gn" -na;
 connectAttr "aiAreaLight1.iog" ":defaultLightSet.dsm" -na;
-// End of capsurel_vending.ma
+// End of capsurel_vending.0007.ma
