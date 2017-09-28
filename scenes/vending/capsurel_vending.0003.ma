@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: capsurel_vending.ma
-//Last modified: Wed, Sep 27, 2017 04:48:11 PM
+//Name: capsurel_vending.0003.ma
+//Last modified: Wed, Sep 27, 2017 04:47:55 PM
 //Codeset: UTF-8
 requires maya "2018";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiAreaLight"
@@ -4760,7 +4760,7 @@ createNode polyTweak -n "polyTweak22";
 	setAttr ".tk[696]" -type "float3" 0 -0.19413923 0 ;
 	setAttr ".tk[697]" -type "float3" 0 0.19414738 0 ;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "C795CFC7-B747-70F2-F311-8BABA5A7A49A";
+	rename -uid "D5FB1ECC-5349-90CF-3AB0-30AF5F2CC055";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -214.55216613494082 -834.08970383407666 ;
 	setAttr ".tgi[0].vh" -type "double2" 252.62591397736387 443.07631039785508 ;
@@ -5271,4 +5271,4 @@ connectAttr "studio_light.iog" ":defaultLightSet.dsm" -na;
 connectAttr "shell_bin_light.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiAreaLight1.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiAreaLight2.iog" ":defaultLightSet.dsm" -na;
-// End of capsurel_vending.ma
+// End of capsurel_vending.0003.ma
